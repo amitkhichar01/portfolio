@@ -24,7 +24,7 @@ export default function about() {
             whileInView="animate"
             viewport={{ once: true }}
         >
-            <div className=" px-2 w-full text-sm sm:w-5/6 lg:w-6/12 sm:text-base tracking-wider">
+            <div className=" px-2 w-full text-base sm:w-5/6 lg:w-6/12 sm:text-base tracking-wider">
                 <SectionHeading heading="About Me" />
                 <p className="leading-8  mb-3">
                     Hey! I&apos;m Amit Khichar, a <span className="font-medium">MERN stack developer</span>. My favorite part of programming is the problem-solving aspect. I love the feeling of
