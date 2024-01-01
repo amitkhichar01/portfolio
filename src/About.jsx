@@ -29,7 +29,7 @@ export default function about() {
                 <p className="leading-8  mb-3">
                     Hey! I&apos;m Amit Khichar, a <span className="font-medium">Full stack developer</span>. My favorite part of programming is the problem-solving aspect. I love the feeling of
                     finally figuring out a solution to a problem. I believe in the power of humble beginnings—every project, no matter how grand, starts with a simple line of code. My core stack is{" "}
-                    <span className="font-medium">Css, Javascript, React, Node.js, Express.js and MongoDB</span> . I am also familiar with <span className="font-medium">Tailwind</span> and{" "}
+                    <span className="font-medium">Css, Javascript, React, Node.js, Express and MongoDB</span> . I am also familiar with <span className="font-medium">Tailwind</span> and{" "}
                     <span className="font-medium">Bootstrap</span> css framework. I am always looking to learn new technologies. I am currently looking for a{" "}
                     <span className="font-medium">full-time job</span> as a full stack developer.
                 </p>
