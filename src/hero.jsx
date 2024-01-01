@@ -39,7 +39,7 @@ function hero() {
                     <a
                         id="downloadBtn"
                         href="https://drive.google.com/u/0/uc?id=1fFiT-bvXzhbufQlzmKwG9b4oyOWnFTIV&export=download"
-                        download="Resume.pdf"
+                        download="Amit-Resume.pdf"
                         className="rounded-full bg-gray-200 py-2 px-6 shadow-sm shadow-gray-600 scale-90 cursor-pointer hover:shadow transition-all duration-300 ease-in"
                     >
                         Download CV <i className="fa-solid fa-cloud-arrow-down"></i>
