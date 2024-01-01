@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 
-const skillsData = ["Html", "Css", "Bootstrap", "Tailwind", "Javascript", "React.js", "Material UI", "Node.js", "Express", "Ejs (template)", "MongoDB", "Mongoose (Package )", "Git", "GitHub"];
+const skillsData = ["Html", "Css", "Bootstrap", "Tailwind", "Javascript", "React.js", "Material UI", "Node.js", "Express", "Ejs (template)", "MongoDB", "Mongoose", "Git", "GitHub"];
 
 const fadeInAnimationVariants = {
     initial: {

@@ -11,7 +11,7 @@ const NavbarLink = ({ activeSection, handleLinkClick }) => {
             to={link.toLowerCase()}
             smooth={true}
             duration={500}
-            className={clsx("relative p-2 text-xs transition-all ease-in opacity-80 sm:px-3 sm:py-2 sm:text-base text-gray-700", { "text-gray-950": activeSection === link })}
+            className={clsx("relative p-2 text-sm transition-all ease-in opacity-80 sm:px-3 sm:py-2 sm:text-base text-gray-700", { "text-gray-950": activeSection === link })}
             onClick={() => handleLinkClick(link)}
         >
             {link}

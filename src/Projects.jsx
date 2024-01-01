@@ -4,7 +4,7 @@ const projectData = [
     {
         title: "E-Commerce Website",
         description: "I brought the online shopping experience to life by cloning an e-commerce website.",
-        technologies: ["Css", "Javascript", "Node.js", "MongoDB"],
+        technologies: ["Css", "Javascript", "Node.js", "MongoDB", "GSAP"],
         view: "View",
         url: "https://overlays.onrender.com/",
         imageSrc: "https://res.cloudinary.com/dcen2mnhx/image/upload/v1703653561/eiilnzmhx8zuiyfhdeid.jpg",
@@ -20,10 +20,10 @@ const projectData = [
     {
         title: "Portfolio Website",
         description: "Discover my digital showcase—a canvas where creativity meets code. This responsive portfolio goes beyond showcasing skills.",
-        technologies: ["React", "Tailwind CSS", "Vite"],
+        technologies: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
         view: "View",
-        url: "https://wanderlust-k8cc.onrender.com/",
-        imageSrc: "https://images.unsplash.com/photo-1545665277-5937489579f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        url: "https://amitportfolio.onrender.com/",
+        imageSrc: "https://res.cloudinary.com/dcen2mnhx/image/upload/v1704083684/gntwgngeqmiqfaihbqsw.jpg",
     },
 ];
 

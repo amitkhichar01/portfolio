@@ -27,7 +27,7 @@ export default function Contact() {
                     </a>
                 </p>
                 <p className="my-2">Or</p>
-                <p>Phone No. 7014527032</p>
+                <p>Phone No. (+91) 9982208467</p>
             </motion.section>
         </>
     );
