@@ -26,18 +26,21 @@ export default function about() {
         >
             <div className=" px-2 w-full text-base sm:w-5/6 lg:w-6/12 sm:text-base tracking-wider">
                 <SectionHeading heading="About Me" />
-                <p className="leading-8  mb-3">
-                    Hey! I&apos;m Amit Khichar, a <span className="font-medium">Full stack developer</span>. My favorite part of programming is the problem-solving aspect. I love the feeling of
-                    finally figuring out a solution to a problem. I believe in the power of humble beginnings—every project, no matter how grand, starts with a simple line of code. My core stack is{" "}
-                    <span className="font-medium">Css, Javascript, React, Node.js, Express and MongoDB</span> . I am also familiar with <span className="font-medium">Tailwind</span> and{" "}
-                    <span className="font-medium">Bootstrap</span> css framework. I am always looking to learn new technologies. I am currently looking for a{" "}
-                    <span className="font-medium">full-time job</span> as a full stack developer.
-                </p>
-
-                <p className="tracking-wider leading-8">
-                    Whether you&apos;ve got a project in mind or just want to explore the boundless possibilities of tech, I&apos;m all ears. Let&apos;s kick off this coding journey together and
-                    create something truly <span className="font-medium"> extraordinary!</span>
-                </p>
+                <div className="text-lg text-start tracking-wider break-all leading-8 indent-5 font-normal font-nunito">
+                    <p className="text-gray-400 pb-2">
+                        Hello, I&#39;m Amit Khichar, a motivated <span className="text-gray-200">MERN Stack Developer</span> based in Rajasthan. With expertise in{" "}
+                        <span className="text-gray-200">Tailwind Css, React.js, Next.js, Node.js, MongoDB, </span>
+                        and <span className="text-gray-200">responsive UI/UX design.</span> I excel at solving complex problems and bringing ideas to life through code.
+                    </p>
+                    <p className="text-gray-400 pb-2">
+                        I&#39;m eager to launch my career in web development, <span className="text-gray-200">seeking roles in full-time positions, internships, or team projects.</span> My ability to
+                        rapidly learn new technologies and thrive in dynamic environments ensures I contribute effectively to project success.
+                    </p>
+                    <p className="text-gray-400">
+                        Let&#39;s connect to discuss how my skills and passion for web development can support your team&#39;s goals. I&#39;m excited to learn, grow, and make a meaningful impact in
+                        the tech industry.
+                    </p>
+                </div>
             </div>
         </motion.section>
     );

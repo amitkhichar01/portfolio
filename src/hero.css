@@ -1,7 +1,8 @@
 :root {
-    --purple: #646cff;
-    --violet: #ba50ea;
-    --pink: #454ce1;
+    --Cyan: #00ccb1;
+    --violet: #7b61ff;
+    --amber: #ffeb14;
+    --sky-blue: #1ca0fb;
 }
 
 @keyframes background-pan {
@@ -15,7 +16,7 @@
 
 .magic-text {
     animation: background-pan 3s linear infinite;
-    background: linear-gradient(to right, var(--purple), var(--violet), var(--pink), var(--purple));
+    background: linear-gradient(to right, var(--violet), var(--sky-blue), var(--Cyan), var(--amber));
     background-size: 200%;
     background-clip: text;
     -webkit-text-fill-color: transparent;

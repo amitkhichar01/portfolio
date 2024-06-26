@@ -18,15 +18,25 @@ const fadeInAnimationVariants = {
 export default function Contact() {
     return (
         <>
-            <motion.section id="contact" className="flex justify-start items-center flex-col my-24 tracking-wider" variants={fadeInAnimationVariants} initial="initial" whileInView="animate">
-               <SectionHeading heading="Contact Me" />
-                <p className="text-gray-700 text-center">
-                    Please contact me directly at{" "}
-                    <a className="underline text-black ms-1" href="mailto:amitkhichar100@gmail.com">
+            <motion.section
+                id="contact"
+                className="flex justify-start items-center flex-col tracking-wider font-nunito text-lg py-24"
+                variants={fadeInAnimationVariants}
+                initial="initial"
+                whileInView="animate"
+            >
+                <SectionHeading heading="Contact Me" />
+                <p className="text-gray500 text-center ">
+                    Please contact me directly at -{" "}
+                    <a className=" text-blue-400 mx-1 hover:underline" href="mailto:amitkhichar100@gmail.com">
                         amitkhichar100@gmail.com
+                    </a>{" "}
+                    /{"  "}
+                    <a href="https://www.linkedin.com/in/amit-khichar" target="_blank" rel="noreferrer" className=" text-blue-400 ms-1 hover:underline">
+                        LinkedIn
                     </a>
                 </p>
-                <p className="my-2">Or</p>
+                <p className="my-2 text-gray00">Or</p>
                 <p>Phone No. (+91) 9982208467</p>
             </motion.section>
         </>

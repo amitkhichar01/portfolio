@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 
-const skillsData = ["Html", "Css", "Bootstrap", "Tailwind", "Javascript", "React.js", "Material UI", "Node.js", "Express", "Ejs (template)", "MongoDB", "Mongoose", "Git", "GitHub"];
+const skillsData = ["Html", "Css", "Bootstrap", "Tailwind Css", "Javascript", "React.js", "Next.js", "NextAuth", "Material UI", "Node.js", "Express", "Ejs (template)", "MongoDB", "Mongoose", "Git", "GitHub"];
 
 const fadeInAnimationVariants = {
     initial: {
@@ -20,7 +20,7 @@ const fadeInAnimationVariants = {
 
 const SkillItem = ({ skill, index }) => (
     <motion.li
-        className="bg-gray-200 text-gray-800 text-sm py-2 px-3 rounded-md md:text-lg  md:px-5 md:py-3 skill"
+        className="bg-gray-200 text-black text-sm py-2 px-3 rounded-md md:text-lg  md:px-5 md:py-3 skill font-nunito font-semibold"
         variants={fadeInAnimationVariants}
         initial="initial"
         whileInView="animate"
@@ -46,10 +46,11 @@ const SkillsData = () => (
 
 export default function Skill() {
     return (
-        <section id="skill" className="flex justify-center flex-col items-center tracking-wider pt-28">
+        <section id="skill" className="flex justify-center flex-col items-center tracking-wider pt-24">
             <div className="scroll-mt-28 max-w-[53rem]">
                 <SectionHeading heading="Skills" />
                 <SkillsData />
+
             </div>
         </section>
     );

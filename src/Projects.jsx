@@ -3,7 +3,7 @@ import Project from "./Project";
 const projectData = [
     {
         title: "E-Commerce Website",
-        description: "I brought the online shopping experience to life by cloning an e-commerce website.",
+        description: "I developed an e-commerce clone project to simulate the online shopping experience.",
         technologies: ["Css", "Javascript", "Node.js", "MongoDB", "GSAP"],
         view: "View",
         url: "https://overlays.onrender.com/",
@@ -18,15 +18,15 @@ const projectData = [
         imageSrc: "https://res.cloudinary.com/dcen2mnhx/image/upload/v1703654110/qogxhpy9m9hqcqdv5lsn.jpg",
     },
     {
-        title: "Portfolio Website",
-        description: "Discover my digital showcase—a canvas where creativity meets code. This responsive portfolio goes beyond showcasing skills.",
-        technologies: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
+        title: "BizBond Website",
+        description: "Developed a LinkedIn clone with user authentication, dynamic posts, and profile management using Next.js and Tailwind CSS",
+        technologies: ["Next.js", "react.js", "Tailwind Css", "MongoDB", "NextAuth"],
         view: "View",
-        url: "https://amitportfolio.onrender.com/",
-        imageSrc: "https://res.cloudinary.com/dcen2mnhx/image/upload/v1704083684/gntwgngeqmiqfaihbqsw.jpg",
+        url: "https://bizbond.vercel.app",
+        imageSrc: "https://res.cloudinary.com/dcen2mnhx/image/upload/v1719374605/bizbond_mh9bwp.jpg",
     },
 ];
 
 export default function Projects() {
-     return projectData.map((project, index) => <Project key={index} project={project} index={index} />);
+    return projectData.map((project, index) => <Project key={index} project={project} index={index} />);
 }

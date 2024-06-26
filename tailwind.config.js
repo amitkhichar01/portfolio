@@ -8,6 +8,11 @@ export default {
                 "100%": { backgroundPosition: "-200% center" },
             },
         },
+        fontFamily: {
+            lexend: ["Lexend Deca", "sans-serif"],
+            nunito: ["Nunito", "sans-serif"],
+            lato: ["Lato", "sans-serif"]
+        },
     },
     plugins: [],
 };
