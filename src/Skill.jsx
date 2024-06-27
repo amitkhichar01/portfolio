@@ -46,7 +46,7 @@ const SkillsData = () => (
 
 export default function Skill() {
     return (
-        <section id="skill" className="flex justify-center flex-col items-center tracking-wider pt-24">
+        <section id="skill" className="flex justify-center flex-col items-center tracking-wider pt-24 px-2">
             <div className="scroll-mt-28 max-w-[53rem]">
                 <SectionHeading heading="Skills" />
                 <SkillsData />

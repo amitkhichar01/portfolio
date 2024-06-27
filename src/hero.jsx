@@ -17,9 +17,9 @@ function hero() {
             whileInView={{ opacity: 1 }}
         >
             <div className="flex justify-center items-center flex-col tracking-wider">
-                <h1 className="text-2xl font-medium tracking-wide mb-8 sm:text-5xl text-center  font-lato">Hey, I&#39;m Amit khichar</h1>
-                <h2 className="magic-text headline font-nunito text-xl font-bold mb-4 sm:text-3xl tracking-widest text-center">MERN Stack Developer</h2>
-                <p className="font-nunito my-4 w-full text-lg text-gray-500 leading-8 tracking-widest text-center sm:w-5/6 lg:w-7/12 xl:w-2/5">
+                <h1 className="text-4xl font-medium tracking-wide mb-8 sm:text-5xl text-center  font-lato">Hey, I&#39;m Amit khichar</h1>
+                <h2 className="magic-text headline font-nunito text-2xl font-bold mb-4 sm:text-3xl tracking-widest text-center">MERN Stack Developer</h2>
+                <p className="font-nunito my-4 px-2 w-full text-lg text-gray-500 leading-8 tracking-widest text-center sm:w-5/6 lg:w-7/12 xl:w-2/5">
                     Your friendly MERN Stack Developer on a mission to turn your digital dreams into reality. Whether it&apos;s creating stunning websites or building robust backend systems, I&apos;m
                     here to make the web work for you. Let&apos;s bring your ideas to life in the digital realm!
                 </p>

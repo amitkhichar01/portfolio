@@ -20,7 +20,7 @@ export default function Contact() {
         <>
             <motion.section
                 id="contact"
-                className="flex justify-start items-center flex-col tracking-wider font-nunito text-lg py-24"
+                className="flex justify-start items-center flex-col tracking-wider font-nunito text-lg py-24 px-2"
                 variants={fadeInAnimationVariants}
                 initial="initial"
                 whileInView="animate"

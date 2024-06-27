@@ -26,7 +26,7 @@ export default function about() {
         >
             <div className=" px-2 w-full text-base sm:w-5/6 lg:w-6/12 sm:text-base tracking-wider">
                 <SectionHeading heading="About Me" />
-                <div className="text-lg text-start tracking-wider break-all leading-8 indent-5 font-normal font-nunito">
+                <div className="text-lg text-start tracking-wider break-all leading-8 indent-5 px-2 font-normal font-nunito">
                     <p className="text-gray-400 pb-2">
                         Hello, I&#39;m Amit Khichar, a motivated <span className="text-gray-200">MERN Stack Developer</span> based in Rajasthan. With expertise in{" "}
                         <span className="text-gray-200">Tailwind Css, React.js, Next.js, Node.js, MongoDB, </span>
