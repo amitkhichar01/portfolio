@@ -1,10 +1,18 @@
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
+import useAnimation from "./useAnimation";
 
 const Project = ({ project, index }) => {
+    const { ref, scale, opacity } = useAnimation(["0 1", "1.33 1"]);
+ 
     return (
         <>
             <motion.div
+                ref={ref}
+                style={{
+                    scale,
+                    opacity,
+                }}
                 className={`flex bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 ${
                     index === 2 ? "mb-0" : "mb-8"
                 } ease-in duration-300`}
