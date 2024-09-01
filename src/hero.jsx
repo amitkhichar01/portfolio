@@ -29,7 +29,9 @@ function hero() {
                     </Link>
                     <a
                         id="downloadBtn"
-                        href="https://drive.google.com/u/0/uc?id=1fFiT-bvXzhbufQlzmKwG9b4oyOWnFTIV&export=download"
+                        href="https://drive.google.com/file/d/1QWJcvN3ntJva5n0WM59GpaNJP_NC4X_b/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
                         download="Amit-Resume.pdf"
                         className="rounded-full bg-[#202020] hover:bg-[#151515] py-2 px-6 cursor-pointer transition-all duration-500 ease-in"
                     >
