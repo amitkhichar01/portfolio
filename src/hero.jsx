@@ -29,7 +29,7 @@ function hero() {
                     </Link>
                     <a
                         id="downloadBtn"
-                        href="https://drive.google.com/file/d/1QWJcvN3ntJva5n0WM59GpaNJP_NC4X_b/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1iYfFJe96JpPOXXliNd4_-ljcHFecoX8F/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                         download="Amit-Resume.pdf"
