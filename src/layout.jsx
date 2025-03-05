@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
+import { Analytics } from '@vercel/analytics/react';
 
 const Layout = ({ children }) => {
     const scrollRef = useRef(null);
@@ -23,7 +24,7 @@ const Layout = ({ children }) => {
         };
     }, []);
 
-    return <div ref={scrollRef}>{children}</div>;
+    return <div ref={scrollRef}>{children} <Analytics /></div>;
 };
 
 export default Layout;

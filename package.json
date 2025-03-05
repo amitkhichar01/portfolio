@@ -19,6 +19,7 @@
         "@mui/icons-material": "^5.15.1",
         "@mui/material": "^5.15.1",
         "@studio-freight/lenis": "^1.0.42",
+        "@vercel/analytics": "^1.5.0",
         "autoprefixer": "^10.4.16",
         "clsx": "^2.0.0",
         "framer-motion": "^10.16.16",
