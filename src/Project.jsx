@@ -14,7 +14,7 @@ const Project = ({ project, index }) => {
                     opacity,
                 }}
                 className={`flex bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 ${
-                    index === 2 ? "mb-0" : "mb-8"
+                    index === 3 ? "mb-0" : "mb-8"
                 } ease-in duration-300`}
             >
                 <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
@@ -33,6 +33,7 @@ const Project = ({ project, index }) => {
                         <img
                             src={project.imageSrc}
                             alt={`Project ${index + 1} worked on`}
+                            loading="lazy"
                             className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl origin-bottom duration-300 hover:-rotate-2 transition-all group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 group-even:-right-40 hover:shadow-xl hover:shadow-gray-500"
                         />
                     </a>
