@@ -2,16 +2,6 @@ import Project from "./Project";
 
 const projectData = [
   {
-    title: "Portfolio Website",
-    description:
-      "Designed and developed a sleek, responsive portfolio website to showcase my client's work and personal brand.",
-    technologies: ["React", "Tailwind", "Motion"],
-    view: "View",
-    url: "https://vinaychahal.vercel.app/",
-    imageSrc:
-      "https://res.cloudinary.com/dcen2mnhx/image/upload/v1741358314/image_vfomas.jpg",
-  },
-  {
     title: "E-Commerce Website",
     description:
       "I developed an e-commerce clone project to simulate the online shopping experience.",
