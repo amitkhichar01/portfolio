@@ -26,19 +26,20 @@ export default function about() {
         >
             <div className=" px-2 w-full text-base sm:w-5/6 lg:w-6/12 sm:text-base tracking-wider">
                 <SectionHeading heading="About Me" />
-                <div className="text-lg text-start tracking-wider break-all leading-8 indent-5 px-2 font-normal font-nunito">
-                    <p className="text-gray-400 pb-2">
-                        Hello, I&#39;m Amit Khichar, a motivated <span className="text-gray-200">MERN Stack Developer</span> based in Rajasthan. With expertise in{" "}
-                        <span className="text-gray-200">Tailwind Css, React.js, Next.js, Node.js, MongoDB, </span>
-                        and <span className="text-gray-200">responsive UI/UX design.</span> I excel at solving complex problems and bringing ideas to life through code.
+                <div className="text-lg text-start tracking-wider break-normal leading-8 indent-1 px-2 font-normal font-nunito">
+                    <p className="text-[#FFFFFFB3] pb-2">
+                        Hi, I&#39;m Amit Khichar, a self-taught <span className="text-gray-200">MERN Stack Developer</span> based in Rajasthan, India. With hands-on experience in
+                        <span className="text-gray-200"> React, Next.js, Node.js, MongoDB, Postman, </span>
+                        I craft scalable solutions that align user needs with business goals.
                     </p>
-                    <p className="text-gray-400 pb-2">
-                        I&#39;m eager to launch my career in web development, <span className="text-gray-200">seeking roles in full-time positions, internships, or team projects.</span> My ability to
-                        rapidly learn new technologies and thrive in dynamic environments ensures I contribute effectively to project success.
+                    <p className="text-[#FFFFFFB3] pb-2">
+                       From responsive frontends to robust backend APIs, I enjoy turning ideas into real-world digital experiences. My ability to rapidly learn new technologies and thrive in dynamic environments helps me contribute effectively to project success.
                     </p>
-                    <p className="text-gray-400">
-                        Let&#39;s connect to discuss how my skills and passion for web development can support your team&#39;s goals. I&#39;m excited to learn, grow, and make a meaningful impact in
-                        the tech industry.
+                    <p className="text-[#FFFFFFB3] pb-2">
+                        Whether it&#39;s for a startup, product team or growing organization, I&#39;m excited to work on meaningful projects that make a real impact.
+                    </p>
+                     <p className="text-[#FFFFFFB3]">
+                      Let&#39;s connect and build something that matters.
                     </p>
                 </div>
             </div>

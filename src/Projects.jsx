@@ -4,9 +4,8 @@ const projectData = [
   {
     title: "E-Commerce Website",
     description:
-      "I developed an e-commerce clone project to simulate the online shopping experience.",
+      "Developed a fully functional e-commerce website, closely resembling popular platforms.",
     technologies: ["Css", "Javascript", "NodeJs", "MongoDB", "GSAP"],
-    view: "View",
     url: "https://overlays.onrender.com/",
     imageSrc:
       "https://res.cloudinary.com/dcen2mnhx/image/upload/v1703653561/eiilnzmhx8zuiyfhdeid.jpg",
@@ -14,9 +13,8 @@ const projectData = [
   {
     title: "House Rental Website",
     description:
-      "Discover a house rental platform clone—prioritizing user interaction, responsive design, and efficient data management.",
+      "Discover a user-friendly platform for house rentals, user interaction, responsive design and efficient data management.",
     technologies: ["Css", "Bootstrap", "NodeJs", "Express", "MongoDB"],
-    view: "View",
     url: "https://wanderlust-k8cc.onrender.com/",
     imageSrc:
       "https://res.cloudinary.com/dcen2mnhx/image/upload/v1703654110/qogxhpy9m9hqcqdv5lsn.jpg",
@@ -24,7 +22,7 @@ const projectData = [
   {
     title: "BizBond Website",
     description:
-      "Developed a LinkedIn clone with user authentication, dynamic posts, and profile management using Next.js and Tailwind CSS",
+      "Developed a social media platform with user authentication, dynamic posts and profile management using Next.js and Node.js, MongoDB",
     technologies: [
       "NextJs",
       "React",
@@ -32,7 +30,6 @@ const projectData = [
       "MongoDB",
       "NextAuth",
     ],
-    view: "View",
     url: "https://bizbond.vercel.app",
     imageSrc:
       "https://res.cloudinary.com/dcen2mnhx/image/upload/v1719374605/bizbond_mh9bwp.jpg",
