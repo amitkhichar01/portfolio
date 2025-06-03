@@ -41,18 +41,18 @@ const backendSkills = [
   { name: "Express", icon: <SiExpress className="text-xl" style={{ fill: '#888888' }} /> },
   { name: "Ejs (template)", icon: <SiEjs className="text-xl" style={{ fill: '#a91e50' }} /> },
   { name: "NextAuth", icon: <RiShieldUserFill className="text-xl" style={{ fill: '#888888' }} /> },
+   { name: "Mongoose", icon: <SiMongoose className="text-xl" style={{ fill: '#880000' }} /> },
 ];
 
 const databases = [
   { name: "MongoDB", icon: <SiMongodb className="text-xl" style={{ fill: '#47A248' }} /> },
-  { name: "Mongoose", icon: <SiMongoose className="text-xl" style={{ fill: '#880000' }} /> },
 ];
 
 const tools = [
   { name: "Git", icon: <FaGitAlt className="text-xl" style={{ fill: '#f34f29' }} /> },
   { name: "GitHub", icon: <FaGithub className="text-xl" style={{ fill: '#888888' }} /> },
-   { name: "Postman", icon: <SiPostman className="text-xl" style={{ fill: '#ff6c37' }} /> },
   { name: "VS Code", icon: <VscVscode className="text-xl" style={{ fill: '#007acc' }} /> },
+   { name: "Postman", icon: <SiPostman className="text-xl" style={{ fill: '#ff6c37' }} /> },
    { name: "Trello", icon: <SiTrello className="text-xl" style={{ fill: '#0079bf' }} /> },
 ];
 

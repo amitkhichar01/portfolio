@@ -26,7 +26,7 @@ function hero() {
                 </p>
                 <div className="mt-5 flex justify-center items-center flex-col gap-8 sm:flex-row font-lexend">
                     <Link to="contact" smooth={true} duration={800} className="rounded-full bg-blue-700 hover:bg-blue-800 py-2 px-6 cursor-pointer transition-all duration-300 ease-in">
-                        <span>Contact Me</span> <BsArrowRight className="inline text-xl"/>
+                        <span>Contact Me</span> <BsArrowRight className="inline"/>
                     </Link>
                     <a
                         id="downloadBtn"
