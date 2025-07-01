@@ -15,7 +15,7 @@ const Project = ({ project, index }) => {
                     opacity,
                 }}
                 className={`flex max-w-[51rem] border border-[#ffffff26] rounded-lg overflow-hidden sm:pr-8 relative transition sm:group-even:pl-8 ${
-                    index === 2 ? "mb-0" : "mb-8"
+                    index === 3 ? "mb-0" : "mb-8"
                 } ease-in duration-300`}
             >
                 <div className="p-4 sm:pl-7 sm:pr-2 sm:pt-7 sm:max-w-[60%] flex flex-col h-full sm:group-even:ml-[18rem]">
