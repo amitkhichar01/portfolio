@@ -27,9 +27,9 @@ export default function Contact() {
             >
                 <SectionHeading heading="Contact Me" />
                 <p className="text-gray500 text-center ">
-                    Please contact me directly at -{" "}
-                    <a className=" text-blue-400 mx-1 hover:underline" href="mailto:amitkhichar100@gmail.com">
-                        amitkhichar100@gmail.com
+                    contact me directly at -{" "}
+                    <a className=" text-blue-400 mx-1 hover:underline" href="mailto:amitkhichar70@gmail.com">
+                        amitkhichar70@gmail.com
                     </a>{" "}
                     /{"  "}
                     <a href="https://www.linkedin.com/in/amit-khichar" target="_blank" rel="noreferrer" className=" text-blue-400 ms-1 hover:underline">
@@ -37,7 +37,7 @@ export default function Contact() {
                     </a>
                 </p>
                 <p className="my-2 text-gray00">Or</p>
-                <p>Phone No. (+91) 9982208467</p>
+                <p>Phone No. (+91) 7014368072</p>
             </motion.section>
         </>
     );

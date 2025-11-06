@@ -15,6 +15,7 @@ import {
   SiTailwindcss,
   SiJavascript,
   SiNextdotjs,
+  SiFramer,
   SiMongodb,
   SiMongoose,
   SiExpress,
@@ -33,7 +34,8 @@ const frontendSkills = [
   { name: "React", icon: <FaReact className="text-xl" style={{ fill: '#61DBFB' }} /> },
   { name: "Next.js", icon: <SiNextdotjs className="text-xl" style={{ fill: '#ffffff' }} /> },
   { name: "Bootstrap", icon: <FaBootstrap className="text-xl" style={{ fill: '#7952b3' }} /> },
-  { name: "Tailwind Css", icon: <SiTailwindcss className="text-xl" style={{ fill: '#38bdf8' }} /> },
+  { name: "Tailwind", icon: <SiTailwindcss className="text-xl" style={{ fill: '#38bdf8' }} /> },
+  { name: "Framer Motion", icon: <SiFramer className="text-xl" style={{ fill: '#ffffff' }} /> },
 ];
 
 const backendSkills = [

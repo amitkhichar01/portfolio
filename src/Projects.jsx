@@ -15,15 +15,6 @@ const projectData = [
       "https://res.cloudinary.com/dcen2mnhx/image/upload/v1751373825/farhanwebsiteimg_almk2e.jpg",
   },
   {
-    title: "E-Commerce Website",
-    description:
-      "Developed a fully functional e-commerce website, closely resembling popular platforms.",
-    technologies: ["Css", "Javascript", "NodeJs", "MongoDB", "GSAP"],
-    url: "https://overlays.onrender.com/",
-    imageSrc:
-      "https://res.cloudinary.com/dcen2mnhx/image/upload/v1751374076/overlayswebsite_xe9w2h.jpg",
-  },
-  {
     title: "House Rental Website",
     description:
       "Discover a user-friendly platform for house rentals, user interaction, responsive design and efficient data management.",

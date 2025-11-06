@@ -22,7 +22,7 @@ function hero() {
                 <h1 className="text-4xl font-medium tracking-wide mb-8 sm:text-5xl text-center  font-lato">Hey, I&#39;m Amit khichar</h1>
                 <h2 className="magic-text headline font-nunito text-2xl font-bold mb-4 sm:text-3xl tracking-wider text-center">MERN Stack Developer</h2>
                 <p className="font-nunito my-4 px-2 w-full text-lg text-[#FFFFFFB3] leading-8 tracking-wider text-center sm:w-5/6 lg:w-7/12 xl:w-2/5">
-                I focus on turning ideas into fast, scalable and user-centered web applications. I build clean, efficient solutions that balance performance with meaningful experiences. My goal is to create technology that solves problems and drives real impact. Let&#39;s build something that matters.
+                I focus on turning ideas into fast, scalable and user-centered web applications. I build clean, efficient solutions that balance performance with meaningful experiences. My goal is to create web app that solves problems and drives real impact. Let&#39;s build something that matters.
                 </p>
                 <div className="mt-5 flex justify-center items-center flex-col gap-8 sm:flex-row font-lexend">
                     <Link to="contact" smooth={true} duration={800} className="rounded-full bg-blue-700 hover:bg-blue-800 py-2 px-6 cursor-pointer transition-all duration-300 ease-in">
@@ -30,7 +30,7 @@ function hero() {
                     </Link>
                     <a
                         id="downloadBtn"
-                        href="https://drive.google.com/file/d/1iYfFJe96JpPOXXliNd4_-ljcHFecoX8F/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1EI6COG18ldBG3gdoELMOfZGgs0TA8Uxr/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                         download="Amit-Resume.pdf"

@@ -4,7 +4,7 @@ import useAnimation from "./useAnimation";
 import { CiGlobe } from "react-icons/ci";
 
 const Project = ({ project, index }) => {
-    const { ref, scale, opacity } = useAnimation(["0 1", "1.33 1"]);
+    const { ref, scale, opacity } = useAnimation(["0 1", "1.1 1"]);
  
     return (
         <>
