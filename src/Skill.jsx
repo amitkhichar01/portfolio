@@ -26,36 +26,92 @@ import {
 import { RiShieldUserFill } from "react-icons/ri";
 import { VscVscode } from "react-icons/vsc";
 
-
 const frontendSkills = [
-  { name: "Html", icon: <FaHtml5 className="text-xl" style={{ fill: '#e34c26' }} /> },
-  { name: "Css", icon: <FaCss3Alt className="text-xl" style={{ fill: '#264de4' }} /> },
-  { name: "Javascript", icon: <SiJavascript className="text-xl" style={{ fill: '#f7df1e' }} /> },
-  { name: "React", icon: <FaReact className="text-xl" style={{ fill: '#61DBFB' }} /> },
-  { name: "Next.js", icon: <SiNextdotjs className="text-xl" style={{ fill: '#ffffff' }} /> },
-  { name: "Bootstrap", icon: <FaBootstrap className="text-xl" style={{ fill: '#7952b3' }} /> },
-  { name: "Tailwind", icon: <SiTailwindcss className="text-xl" style={{ fill: '#38bdf8' }} /> },
-  { name: "Framer Motion", icon: <SiFramer className="text-xl" style={{ fill: '#ffffff' }} /> },
+  {
+    name: "Html",
+    icon: <FaHtml5 className="text-xl" style={{ fill: "#e34c26" }} />,
+  },
+  {
+    name: "Css",
+    icon: <FaCss3Alt className="text-xl" style={{ fill: "#264de4" }} />,
+  },
+  {
+    name: "Javascript",
+    icon: <SiJavascript className="text-xl" style={{ fill: "#f7df1e" }} />,
+  },
+  {
+    name: "React",
+    icon: <FaReact className="text-xl" style={{ fill: "#61DBFB" }} />,
+  },
+  {
+    name: "Next.js",
+    icon: <SiNextdotjs className="text-xl" style={{ fill: "#ffffff" }} />,
+  },
+  {
+    name: "Bootstrap",
+    icon: <FaBootstrap className="text-xl" style={{ fill: "#7952b3" }} />,
+  },
+  {
+    name: "Tailwind",
+    icon: <SiTailwindcss className="text-xl" style={{ fill: "#38bdf8" }} />,
+  },
+  {
+    name: "Framer Motion",
+    icon: <SiFramer className="text-xl" style={{ fill: "#ffffff" }} />,
+  },
 ];
 
 const backendSkills = [
-  { name: "Node.js", icon: <FaNodeJs className="text-xl" style={{ fill: '#3c873a' }} /> },
-  { name: "Express", icon: <SiExpress className="text-xl" style={{ fill: '#888888' }} /> },
-  { name: "Ejs (template)", icon: <SiEjs className="text-xl" style={{ fill: '#a91e50' }} /> },
-  { name: "NextAuth", icon: <RiShieldUserFill className="text-xl" style={{ fill: '#888888' }} /> },
-   { name: "Mongoose", icon: <SiMongoose className="text-xl" style={{ fill: '#880000' }} /> },
+  {
+    name: "Node.js",
+    icon: <FaNodeJs className="text-xl" style={{ fill: "#3c873a" }} />,
+  },
+  {
+    name: "Express",
+    icon: <SiExpress className="text-xl" style={{ fill: "#888888" }} />,
+  },
+  {
+    name: "Ejs (template)",
+    icon: <SiEjs className="text-xl" style={{ fill: "#a91e50" }} />,
+  },
+  {
+    name: "NextAuth",
+    icon: <RiShieldUserFill className="text-xl" style={{ fill: "#888888" }} />,
+  },
+  {
+    name: "Mongoose",
+    icon: <SiMongoose className="text-xl" style={{ fill: "#880000" }} />,
+  },
 ];
 
 const databases = [
-  { name: "MongoDB", icon: <SiMongodb className="text-xl" style={{ fill: '#47A248' }} /> },
+  {
+    name: "MongoDB",
+    icon: <SiMongodb className="text-xl" style={{ fill: "#47A248" }} />,
+  },
 ];
 
 const tools = [
-  { name: "Git", icon: <FaGitAlt className="text-xl" style={{ fill: '#f34f29' }} /> },
-  { name: "GitHub", icon: <FaGithub className="text-xl" style={{ fill: '#888888' }} /> },
-  { name: "VS Code", icon: <VscVscode className="text-xl" style={{ fill: '#007acc' }} /> },
-   { name: "Postman", icon: <SiPostman className="text-xl" style={{ fill: '#ff6c37' }} /> },
-   { name: "Trello", icon: <SiTrello className="text-xl" style={{ fill: '#0079bf' }} /> },
+  {
+    name: "Git",
+    icon: <FaGitAlt className="text-xl" style={{ fill: "#f34f29" }} />,
+  },
+  {
+    name: "GitHub",
+    icon: <FaGithub className="text-xl" style={{ fill: "#888888" }} />,
+  },
+  {
+    name: "VS Code",
+    icon: <VscVscode className="text-xl" style={{ fill: "#007acc" }} />,
+  },
+  {
+    name: "Postman",
+    icon: <SiPostman className="text-xl" style={{ fill: "#ff6c37" }} />,
+  },
+  {
+    name: "Trello",
+    icon: <SiTrello className="text-xl" style={{ fill: "#0079bf" }} />,
+  },
 ];
 
 const fadeInAnimationVariants = {

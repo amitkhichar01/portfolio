@@ -1,25 +1,30 @@
 :root {
-    --Cyan: #00ccb1;
-    --violet: #7b61ff;
-    --amber: #ffeb14;
-    --sky-blue: #1ca0fb;
+  --Cyan: #00ccb1;
+  --violet: #7b61ff;
+  --amber: #ffeb14;
+  --sky-blue: #1ca0fb;
 }
 
 @keyframes background-pan {
-    form{
-        background-position: 0% center;
-    }
-   to {
-        background-position: -200% center;
-    }
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: -200% center;
+  }
 }
 
 .magic-text {
-    animation: background-pan 3s linear infinite;
-    background: linear-gradient(to right, var(--violet), var(--sky-blue), var(--Cyan), var(--amber));
-    background-size: 200%;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    white-space: nowrap;
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--violet),
+    var(--sky-blue),
+    var(--Cyan),
+    var(--amber)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
-
