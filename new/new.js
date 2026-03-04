@@ -1,0 +1,1 @@
+console.log("print all world!")
