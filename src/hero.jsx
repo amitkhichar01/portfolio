@@ -55,7 +55,7 @@ function hero() {
           </Link>
           <a
             id="downloadBtn"
-            href="https://drive.google.com/file/d/1EI6COG18ldBG3gdoELMOfZGgs0TA8Uxr/view?usp=sharing"
+            href="https://res.cloudinary.com/dcen2mnhx/image/upload/v1787500715/Amit_Resume_dfpjlg.pdf"
             target="_blank"
             rel="noreferrer"
             download="Amit-Resume.pdf"
