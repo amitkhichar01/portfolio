@@ -16,6 +16,8 @@ export default function Hero() {
         <img
           src="/banner image.jpg"
           alt="banner image"
+          fetchPriority="high"
+          decoding="async"
           className="object-cover w-full h-60 rounded-sm"
         />
 
@@ -31,6 +33,8 @@ export default function Hero() {
           <img
             src="/my-photo.jpg"
             alt="Amit Khichar"
+            fetchPriority="high"
+            decoding="async"
             className="rounded-lg object-cover shadow w-30 h-30"
           />
         </div>

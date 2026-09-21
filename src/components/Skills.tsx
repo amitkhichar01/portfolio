@@ -163,6 +163,8 @@ export default function Skills() {
               alt={skill.name}
               width={16}
               height={16}
+              decoding="async"
+              loading="lazy"
               className="rounded-sm"
               onError={(e) => {
                 (e.currentTarget as HTMLImageElement).style.display = "none";

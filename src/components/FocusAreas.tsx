@@ -3,24 +3,24 @@ export default function FocusAreas() {
     <section id="focus" aria-label="Areas of focus">
       {/* Orbit diagram */}
       <div className="section-border flex flex-col items-center gap-8 py-10">
-        <div className="relative mx-auto w-full max-w-xs sm:max-w-md md:max-w-lg">
+        <div className="relative mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg">
           <div className="relative aspect-square w-full">
             {/* Decorative orbit rings */}
             <div
               aria-hidden="true"
-              className="absolute top-0 left-1/2 h-[60%] w-[60%] -translate-x-1/2 rounded-full border border-border border-double"
+              className="absolute top-0 left-1/2 h-[54%] w-[54%] -translate-x-1/2 rounded-full border border-border border-double"
             />
             <div
               aria-hidden="true"
-              className="absolute top-[22%] left-[2%] h-[60%] w-[60%] rounded-full border border-border border-double"
+              className="absolute top-[22%] left-[2%] h-[54%] w-[54%] rounded-full border border-border border-double"
             />
             <div
               aria-hidden="true"
-              className="absolute top-[22%] right-[2%] h-[60%] w-[60%] rounded-full border border-border border-double"
+              className="absolute top-[22%] right-[2%] h-[54%] w-[54%] rounded-full border border-border border-double"
             />
             <div
               aria-hidden="true"
-              className="absolute bottom-0 left-1/2 h-[60%] w-[60%] -translate-x-1/2 rounded-full border border-border border-double"
+              className="absolute bottom-0 left-1/2 h-[54%] w-[54%] -translate-x-1/2 rounded-full border border-border border-double"
             />
 
             {/* Labels — top */}
@@ -44,7 +44,7 @@ export default function FocusAreas() {
             </span>
 
             {/* Centre avatar */}
-            <div className="absolute top-1/2 left-1/2 size-20 -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full border-2 border-border shadow-md sm:border-4 md:size-24">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full border-2 border-border shadow-md sm:border-4 size-24">
               <img
                 alt="Amit Khichar"
                 src="/my-photo.jpg"
